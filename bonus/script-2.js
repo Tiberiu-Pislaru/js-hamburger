@@ -11,9 +11,9 @@ button.addEventListener('click', function() {
         container.classList.add('dark');
         button.classList.add('btn_light');
         button.classList.remove('btn_dark');
-
         
     }else{
+        
         container.classList.remove('dark');
         container.classList.add('light');
         button.classList.add('btn_dark');
